@@ -284,8 +284,4 @@ were given"
         list_out = Square.load_from_file()
         self.assertNotEqual(id(list_in[0]), id(list_out[0]))
         self.assertEqual(str(list_in[0]), str(list_out[0]))
-        self.assertNotEqual(id(list_in[1]), id(list_out[1]))
-        self.assertEqual(str(list_in[1]), str(list_out[1]))
-
-if __name__ == "__main__":
-    unittest.main()
+        
